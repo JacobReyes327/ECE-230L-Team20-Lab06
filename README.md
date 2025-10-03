@@ -20,6 +20,7 @@ In this lab we created a few different circuits, including a simulation of a lig
 To add more than two bits together, you would simply have to add more adders to the circuit, with the designated carry-ins coming from the carry-outs of the previous adder in the circuit.
 
 ### 2 - What is the importance of the XOR gate in an adder?
+The XOR gate accounts for carry out in the sum when both values of the inputs are 1 for a half adder, and for a full adder you can use the same gate to account for the carry in that comes along with a full adder, simplifying the circuit. It also changes the signage of the second added bit in a signed adder.
 
 ### 3 - What is the largest number a two bit adder can handle? What happens when you go over?
-
+The largest number a two-bit adder can handle is 3 (or 11 in binary), since more would get you an overflow error. That is, unless you count the carry out as a third digit.
