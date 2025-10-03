@@ -15,7 +15,7 @@ module top(
         .A(sw[2]),
         .B(sw[3]),
         .Y(led[1]),
-        .carry(led[2]),
+        .carry(led[2])
     );
 
     full_adder lsb(
@@ -33,5 +33,6 @@ module top(
         .Y(led[4]),
         .Cout(led[5])
     );
+
 
 endmodule
