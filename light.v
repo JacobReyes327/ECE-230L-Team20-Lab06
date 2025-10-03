@@ -1,8 +1,8 @@
 module light(
     input upstairs, downstairs,
-    output Y
+    output light
 );
 
-    assign Y = upstairs ^ downstairs;
+    assign light = upstairs ^ downstairs;
 
 endmodule
