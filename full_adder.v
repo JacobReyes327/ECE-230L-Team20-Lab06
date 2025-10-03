@@ -6,6 +6,6 @@ module full_adder(
     assign Y = A ^ B ^ C;
     assign Cout = (A & B) | (B & C) | (A & C);
 
-
 endmodule
+
 
